@@ -6,7 +6,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: branch
-          repository: 'abystoma/external-workflow'
+          repository: abystoma/external-workflow
           
       - name: Greeting
         run: echo "$(<greeting.txt)"
